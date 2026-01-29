@@ -8,7 +8,7 @@ const ViewPaste = () => {
   const [error, setError] = useState("");
 
   useEffect(() => {
-    API.get(`/paste/${id}`)
+    API.get(`/api/paste/${id}`)
       .then((res) => setContent(res.data.content))
       .catch(() => setError("Paste expired or not found"));
   }, [id]);
