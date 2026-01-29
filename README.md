@@ -28,7 +28,7 @@ All generated paste links are automatically stored in a personal **My Paste Link
 - NanoID (for short IDs)
 
 ### Deployment
-- Frontend: rander
+- Frontend: Render
 - Backend: Render
 
 frontend setUP: 
