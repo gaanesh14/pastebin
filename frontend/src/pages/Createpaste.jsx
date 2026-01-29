@@ -11,7 +11,7 @@ const CreatePaste = () => {
   const handleSubmit = async () => {
     if (!content.trim()) return;
 
-    const res = await API.post("/paste", {
+    const res = await API.post("/api/paste", {
       content,
       expireMinutes,
       maxViews,
